@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 600px) {
+    body {
+        width: 428px;
+        height: 394px;
+        background: #FFFFFF;
+    }
+    header {
+        width: 480px;
+        height: 394px;
+        background: #6B46C1;
+        color: #F7FAFC;
+    }
+
+    header h1 {
+        width: 366px;
+        padding: 57px 39px 0 23px;
+        font-weight: 800;
+        font-size: 30px;
+        letter-spacing: -0.01em;
+        line-height: 130%;
+        margin: auto;
+    }
+
+    header p {
+        width: 381px;
+        margin: auto;
+        height: 64px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+        opacity: 0.84;
+        padding: 20px 24px 36px 23px;
+    }
+
+    main {
+        width: 382px;
+        height: 606px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+        position: relative;
+        bottom: 130px;
+        left: 45px;
+    }
+    .left-card {
+        height: 283px;
+        background: #F0EAFB;
+        border-radius: 12px 12px 0px 0px;
+    }
+    #premium-pro {
+        font-weight: 800;
+        font-size: 24px;
+        text-align: center;
+        padding-top: 35px;
+    }
+    #price {
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 100%;
+        letter-spacing: -0.01em;
+        padding-top: 16px;
+        text-align: center;
+    }
+
+    #bill {
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 8px;
+    }
+
+    button {
+        width: 282px;
+        background: #805AD5;
+        border-radius: 8px;
+        margin-top: 24px;
+        color: #F7FAFC;
+        padding: 14px 0 14px 0;
+        font-weight: 700;
+        cursor: pointer;
+        border: none;
+    }
+    .btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    #access {
+        width: 353px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        padding-top: 39px;
+        text-align: left;
+        margin: auto;
+    }
+
+    img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .list-content {
+        padding-left: 14px;
+        margin-top: 24px;
+    }
+
+    footer {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 80px;
+        left: 30px;
+    }
+
+    .icon-text {
+        display: flex;
+        align-items: center;
+        column-gap: 40px;
+    }
+
+    .icon-text p {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #mid-content {
+        padding: 37px 0 37px 0
+    }
+
+    .img {
+        height: 33px;
+        width: 33px;
+    }
+
+    #monthly {
+        width: 300px;
+    }
+
+}
+
+@media (min-width: 600px) {
+    header {
+        height: 397px;
+        background: #6B46C1;
+        color: #F7FAFC;
+        text-align: center;
+    }
+
+    header h1 {
+        padding-top: 88px;
+        font-weight: 800;
+        font-size: 48px;
+        text-align: center;
+        letter-spacing: -0.01em;
+        margin: auto;
+    }
+
+    header p {
+        font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+        opacity: 0.84;
+        margin: auto;
+        padding-top: 16px;
+    }
+    main {
+        width: 994px;
+        height: 336px;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+        border-radius: 12px;
+        position: relative;
+        top: -120px;
+        margin: auto;
+        color: #171923;
+    }
+
+    .card-content {
+        display: flex;
+    }
+
+    .left-card {
+        width: 378px;
+        height: 336px;
+        background: #F0EAFB;
+        border-radius: 12px 0 0 12px;
+        /*background: #652CD3;*/
+        /*opacity: 0.1;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #premium-pro {
+        font-weight: 800;
+        font-size: 24px;
+        text-align: center;
+        padding-top: 57px;
+    }
+
+    #price {
+        font-weight: 800;
+        font-size: 60px;
+        letter-spacing: -0.01em;
+        padding-top: 16px;
+    }
+
+    #bill {
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 8px;
+    }
+
+    button {
+        width: 282px;
+        background: #805AD5;
+        border-radius: 8px;
+        margin-top: 24px;
+        color: #F7FAFC;
+        padding: 14px 0 14px 0;
+        font-weight: 700;
+        cursor: pointer;
+        border: none;
+    }
+
+    .sub-content {
+        margin: 48px 0 0 48px;
+    }
+
+    #access {
+        width: 500px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .list-content {
+        display: flex;
+        flex-direction: column;
+        padding-top: 24px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    img {
+        width: 22px;
+        height: 22px;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        bottom: 50px;
+        position: relative;
+    }
+
+    .foot-container {
+        display: flex;
+        column-gap: 25px;
+    }
+
+    .icon-text {
+        display: flex;
+        column-gap: 24px;
+    }
+
+    .text {
+        width: 220px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .img {
+        height: 40px;
+        width: 40px;
+    }
+}
